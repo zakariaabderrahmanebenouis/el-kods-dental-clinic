@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+
+<html dir="rtl" lang="ar"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "on-primary-fixed-variant": "#3f465c", "on-error": "#ffffff", "on-tertiary-fixed-variant": "#3e4852", "surface": "#f7f9fb", "primary": "#000000", "inverse-surface": "#2d3133", "secondary-fixed-dim": "#93ccff", "on-primary-container": "#7c839b", "tertiary-fixed": "#dae3f0", "on-secondary-fixed-variant": "#004b73", "secondary-container": "#5bb8fe", "tertiary-container": "#131d25", "on-background": "#191c1e", "surface-tint": "#565e74", "surface-container-highest": "#e0e3e5", "inverse-primary": "#bec6e0", "secondary": "#006398", "inverse-on-surface": "#eff1f3", "background": "#f7f9fb", "error": "#ba1a1a", "primary-container": "#131b2e", "on-primary-fixed": "#131b2e", "primary-fixed": "#dae2fd", "tertiary-fixed-dim": "#bdc8d3", "on-secondary-fixed": "#001d31", "error-container": "#ffdad6", "surface-bright": "#f7f9fb", "on-tertiary-fixed": "#131d25", "secondary-fixed": "#cce5ff", "surface-container-low": "#f2f4f6", "on-secondary-container": "#00476e", "on-error-container": "#93000a", "on-primary": "#ffffff", "on-tertiary": "#ffffff", "outline": "#76777d", "on-tertiary-container": "#7b8590", "surface-container": "#eceef0", "surface-container-high": "#e6e8ea", "outline-variant": "#c6c6cd", "on-surface-variant": "#45464d", "surface-container-lowest": "#ffffff", "primary-fixed-dim": "#bec6e0", "surface-dim": "#d8dadc", "on-secondary": "#ffffff", "on-surface": "#191c1e", "tertiary": "#000000", "surface-variant": "#e0e3e5" }, "borderRadius": { "DEFAULT": "0.25rem", "lg": "0.5rem", "xl": "0.75rem", "full": "9999px" }, "spacing": { "margin": "3rem", "space-xl": "3.5rem", "gutter": "1.5rem", "space-lg": "2rem", "space-sm": "0.75rem", "margin-mobile": "1.25rem", "space-md": "1.25rem", "space-xs": "0.375rem", "gutter-mobile": "1rem" }, "fontFamily": { "headline-md": [ "IBM Plex Sans" ], "label-sm": [ "IBM Plex Sans" ], "body-sm": [ "IBM Plex Sans" ], "headline-xl-mobile": [ "IBM Plex Sans" ], "body-lg": [ "IBM Plex Sans" ], "headline-sm": [ "IBM Plex Sans" ], "label-md": [ "IBM Plex Sans" ], "headline-xl": [ "IBM Plex Sans" ], "display-hero": [ "IBM Plex Sans" ], "headline-lg": [ "IBM Plex Sans" ], "body-md": [ "IBM Plex Sans" ], "display-hero-mobile": [ "IBM Plex Sans" ] }, "fontSize": { "headline-md": [ "22px", { "lineHeight": "30px", "fontWeight": "500" } ], "label-sm": [ "11px", { "lineHeight": "16px", "letterSpacing": "0.06em", "fontWeight": "600" } ], "body-sm": [ "13px", { "lineHeight": "20px", "fontWeight": "400" } ], "headline-xl-mobile": [ "28px", { "lineHeight": "36px", "fontWeight": "600" } ], "body-lg": [ "18px", { "lineHeight": "28px", "fontWeight": "400" } ], "headline-sm": [ "18px", { "lineHeight": "26px", "fontWeight": "600" } ], "label-md": [ "13px", { "lineHeight": "18px", "letterSpacing": "0.04em", "fontWeight": "600" } ], "headline-xl": [ "40px", { "lineHeight": "50px", "letterSpacing": "-0.015em", "fontWeight": "600" } ], "display-hero": [ "56px", { "lineHeight": "68px", "letterSpacing": "-0.02em", "fontWeight": "600" } ], "headline-lg": [ "30px", { "lineHeight": "38px", "fontWeight": "500" } ], "body-md": [ "15px", { "lineHeight": "24px", "fontWeight": "400" } ], "display-hero-mobile": [ "36px", { "lineHeight": "44px", "letterSpacing": "-0.01em", "fontWeight": "600" } ] } } } }</script></head><body class="bg-surface text-on-surface font-body-md text-body-md antialiased selection:bg-secondary-fixed selection:text-on-secondary-fixed"><header class="fixed top-0 inset-x-0 z-50 bg-surface-container-lowest/80 backdrop-blur-xl shadow-[0_1px_8px_rgba(0,0,0,0.04)] transition-all duration-300"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6"><div class="flex items-center gap-3 select-none"><img alt="Profile" class="w-8 h-8 rounded-full object-cover" src="https://lh3.googleusercontent.com/aida/AEtjO1V5GH31iMh6hwGcJvFSSLulR_zlUBRQvYtyz6_htjblOnHtE79MihRMQV0dNNvB_3r_O0DTNpY0upETn9zijR4TyStdzQFXyQjfVgn74ExduxHxbRKBLmAaZ0VJkzRsexLC1I-LVILHehcSoCf7J8jCm3o41dLGiVJG0kZa276lRug0gFfE4Atz2505s6kZeb5ddtlNY2-QdC0ef8YudZF9PHuG8iKsGoVZ8SVxTD4L8ojFqLgqU8RXRyzwNCAI-LWhnr9KPG4SWg"/><div class="flex flex-col"><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-bold">Dr. Amouri A</span><span class="font-label-sm text-label-sm text-secondary font-medium tracking-normal">لطب وجراحة وتجميل الأسنان</span></div></div><nav class="hidden lg:flex items-center gap-8" data-active-classes="text-primary font-semibold bg-surface-container"><a aria-current="page" class="transition-colors py-2 px-3 rounded-lg text-primary font-semibold bg-surface-container" data-path="home" href="#">الرئيسية</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="services" href="#">خدماتنا</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="before-after" href="#">الحالات قبل وبعد</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="booking" href="#">حجز موعد</a><a class="font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-colors py-2 px-3 rounded-lg" data-path="contact" href="#">تواصل معنا</a></nav><div class="flex items-center gap-4"><a class="relative inline-flex items-center justify-center px-6 py-3 rounded-xl bg-primary text-on-primary font-label-md text-label-md transition-all duration-300 hover:bg-surface-tint hover:text-on-primary shadow-sm hover:shadow-[0_0_16px_rgba(0,99,152,0.25)] group overflow-hidden" data-path="booking" href="#"><span class="relative z-10">احجز موعدك</span><div class="absolute inset-0 -translate-x-full group-hover:translate-x-full transition-transform duration-1000 bg-gradient-to-r from-transparent via-white/10 to-transparent"></div></a><button aria-label="قائمة التصفح" class="lg:hidden p-2 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-container" type="button"><span class="material-symbols-outlined">menu</span></button></div></div></header><main class="w-full pt-20 bg-surface min-h-screen"><div class="flex flex-col w-full">
+<!-- SECTION 1: HERO SECTION -->
+<section class="relative w-full overflow-hidden bg-surface py-12 lg:py-20">
+<!-- Ambient Radial Glows -->
+<div class="absolute -top-40 right-1/4 w-96 h-96 bg-secondary-fixed/30 rounded-full blur-3xl pointer-events-none"></div>
+<div class="absolute top-1/2 left-10 w-80 h-80 bg-surface-tint/5 rounded-full blur-2xl pointer-events-none"></div>
+<div class="max-w-7xl mx-auto px-6 lg:px-12 relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-16 items-center">
+<!-- Text Column (RTL Right side) -->
+<div class="lg:col-span-7 flex flex-col items-start text-right">
+<!-- Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-secondary-fixed/50 text-secondary mb-6 shadow-sm">
+<span class="w-2.5 h-2.5 rounded-full bg-secondary animate-ping"></span>
+<span class="w-2 h-2 rounded-full bg-secondary -mr-4"></span>
+<span class="font-label-md text-label-md tracking-normal font-semibold">مركز التميز الطبي والجراحي • معايير عالمية</span>
+</div>
+<!-- Exact Headline Requirement -->
+<h1 class="font-display-hero text-display-hero text-on-surface tracking-tight mb-6 font-bold leading-tight">
+            دقة جراحية وتصميم ابتسامة بمعايير راقية
+          </h1>
+<!-- Subtext -->
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mb-10 leading-relaxed">
+            نجمع بين أحدث التقنيات الرقمية ثلاثية الأبعاد والخبرة الجراحية الدقيقة لنقدم لك تجربة علاجية لا مثيل لها وابتسامة مثالية تدوم مدى الحياة.
+          </p>
+<!-- CTAs -->
+<div class="flex flex-wrap items-center gap-4 mb-12">
+<a class="inline-flex items-center justify-center px-8 py-4 rounded-xl bg-primary text-on-primary font-label-md text-label-md shadow-md hover:bg-surface-tint transition-all duration-300 hover:shadow-lg" href="#booking-section">
+<span>احجز استشارتك الآن</span>
+<span class="material-symbols-outlined mr-2 text-base">calendar_month</span>
+</a>
+<a class="inline-flex items-center justify-center px-7 py-4 rounded-xl bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors" href="#clinical-results">
+<span>شاهد النتائج السريرية</span>
+<span class="material-symbols-outlined mr-2 text-base">arrow_downward</span>
+</a>
+</div>
+<!-- Trust Badges & Metrics Strip -->
+<div class="w-full grid grid-cols-2 sm:grid-cols-4 gap-4 pt-8 bg-surface-container-lowest/90 rounded-2xl p-6 shadow-sm">
+<div class="flex flex-col text-right">
+<span class="font-headline-lg text-headline-lg text-secondary font-bold" dir="ltr">+15</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">عاماً من الخبرة</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="font-headline-lg text-headline-lg text-secondary font-bold" dir="ltr">99.4%</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">نسبة نجاح الزراعة</span>
+</div>
+<div class="flex flex-col text-right">
+<span class="font-headline-lg text-headline-lg text-secondary font-bold" dir="ltr">+8,500</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">ابتسامة متألقة</span>
+</div>
+<div class="flex flex-col text-right">
+<div class="flex items-center gap-1 text-secondary">
+<span class="material-symbols-outlined text-[22px]">verified</span>
+<span class="font-headline-sm text-headline-sm font-bold text-on-surface">ضمان ممتد</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium">على خامات الزيركون</span>
+</div>
+</div>
+</div>
+<!-- Visual Column (LTL Left side) -->
+<div class="lg:col-span-5 relative">
+<div class="relative rounded-2xl overflow-hidden shadow-xl bg-surface-container-lowest aspect-[4/5] max-h-[580px]">
+<img alt="عيادة د. عموري الفاخرة للأسنان" class="w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDvlLQeo_6pRvIHFcD6ilezRaCIgMkZxx0TT7usnOeYLcixP_h9sb1zgmvhwiLqnhCcg7EMnSyQB1McS-MpFbrRLRTeJZFEUvOt2-vna7uaZ8lDDqJeL1x1CnA0iWD5NfkQNNdOLI5bk5nBI8gXqhXsCtDq5Cgh54jppT6dewSJgIlsqF-31fEnOAqIo3Nep4S7Il-CtllEnimkgCI5KNs4_cU0Jm4BGkLq0F0uJ55W_QcYZxG7J9Xn"/>
+<!-- Gradient Scrim for Contrast -->
+<div class="absolute inset-0 bg-gradient-to-t from-primary/60 via-transparent to-transparent"></div>
+<!-- Floating Glassmorphic Badge -->
+<div class="absolute bottom-6 inset-x-6 bg-surface-container-lowest/90 backdrop-blur-md p-5 rounded-xl shadow-lg flex items-center justify-between gap-4">
+<div class="flex items-center gap-3">
+<div class="w-12 h-12 rounded-xl bg-secondary-fixed flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined text-2xl">precision_manufacturing</span>
+</div>
+<div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface font-bold">تقنيات ألمانية متطورة 3D</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">دقة ميكرونية ومسح شعاعي فوري</p>
+</div>
+</div>
+<div class="flex flex-col items-end">
+<div class="flex text-amber-500">
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant mt-0.5">تقييم معتمد 5.0</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 2: INTERACTIVE BEFORE / AFTER SLIDER -->
+<section class="w-full bg-surface-container-low py-20" id="clinical-results">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<!-- Section Header -->
+<div class="flex flex-col items-center text-center max-w-3xl mx-auto mb-14">
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase tracking-wider mb-2">معرض الحالات والتحول السريري</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold mb-4">نتائج واقعية تُحدث الفرق</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+          شاهد التحول الفوري لحالات زراعة الأسنان وتركيبات الزيركون (زراعة وزيركون) لدى نخبة أطبائنا بدقة متناهية وانسيابية طبيعية.
+        </p>
+<!-- Category Tabs -->
+<div class="flex flex-wrap justify-center gap-2 mt-8 p-1.5 bg-surface-container rounded-xl">
+<button class="tab-btn active-tab px-6 py-2.5 rounded-lg font-label-md text-label-md bg-surface-container-lowest text-on-surface shadow-sm font-semibold transition-all" data-target="tab-implants" type="button">
+            زراعة الأسنان الفورية
+          </button>
+<button class="tab-btn px-6 py-2.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-target="tab-zirconia" type="button">
+            تجميل الزيركون الكامل
+          </button>
+<button class="tab-btn px-6 py-2.5 rounded-lg font-label-md text-label-md text-on-surface-variant hover:text-on-surface transition-all" data-target="tab-hollywood" type="button">
+            هوليوود سمايل الماسية
+          </button>
+</div>
+</div>
+<!-- Before/After Interactive Viewer Container -->
+<div class="bg-surface-container-lowest rounded-2xl shadow-xl p-6 lg:p-10 max-w-5xl mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+<!-- Interactive Slider Box -->
+<div class="lg:col-span-7 flex flex-col">
+<div class="relative w-full aspect-[4/3] rounded-xl overflow-hidden select-none cursor-ew-resize shadow-md" id="slider-wrapper">
+<!-- AFTER Image (Underneath) -->
+<img alt="النتيجة بعد تركيبات الزيركون وزراعة الأسنان" class="absolute inset-0 w-full h-full object-cover" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBoSwj45D7Be-GSjchKEBp8D2xpVGcHVIbhEBBECCWfJHCOnBgL9-ot7YZsAb82Wz4ygJka4TB4186oaP7i7cAUMYig3QVCL4VMsGIGWInvCF_15JlNkoq1ULDN-bhjgSvuGmngIabE0lu-Ocrw6gT7_jfISxLMFRZDSuRsVSxWeCuVubjcALOC5XyznNHeQZH-ryhLJs2pqIr7w3olKmGDoHiVQGUja9jccr9h5zywiGcKU6JukCEv"/>
+<!-- BEFORE Image (Overlay with Clip Path) -->
+<div class="absolute inset-0 w-full h-full overflow-hidden" id="before-image-layer" style="clip-path: polygon(0 0, 50% 0, 50% 100%, 0 100%);">
+<div class="w-full h-full bg-cover bg-center filter contrast-90 brightness-95" data-alt="Close up clinical photograph of natural untreated dental misalignment and minor discoloration before cosmetic zirconia restoration and implant placement under surgical sterile lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuASfyxwc7nWVBG4Sd6-FFKHCyipdaT0TWUOx7T-b1MQT0yeSyIlJztZbcbcaS99OzDzHZ9mWhVVniKgHdM3dHho5ut1MNpM1excfC6AYdQV4PaP5hPeXMo0w3psGXeyiV8o9w2EfOM2e6bCJkOrZcjjickU4JbfwIPqwpyIj2Rio6_SZDEZE0Vbb9vv9eTTKeOK1kGD2v-iJnrev8Z3MXoKLkv76kFEzCdFt4G2JsQfHsuUw_5zY8OR')"></div>
+</div>
+<!-- Range Handle Bar -->
+<div class="absolute top-0 bottom-0 w-1 bg-white shadow-2xl pointer-events-none" id="slider-handle" style="left: 50%;">
+<div class="absolute top-1/2 -translate-y-1/2 -translate-x-1/2 w-9 h-9 rounded-full bg-white shadow-lg flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-lg">drag_indicator</span>
+</div>
+</div>
+<!-- Badges -->
+<div class="absolute top-4 right-4 bg-primary/80 backdrop-blur-md text-on-primary px-3 py-1.5 rounded-md font-label-sm text-label-sm">
+                بعد العلاج (زراعة وزركون ألماني)
+              </div>
+<div class="absolute top-4 left-4 bg-surface-container-highest/90 backdrop-blur-md text-on-surface px-3 py-1.5 rounded-md font-label-sm text-label-sm">
+                قبل العلاج (فقدان وتصبغات)
+              </div>
+<!-- Interactive Range Input on top -->
+<input aria-label="شريط مقارنة قبل وبعد" class="absolute inset-0 w-full h-full opacity-0 cursor-ew-resize z-20" id="comparison-slider" max="100" min="0" type="range" value="50"/>
+</div>
+<span class="font-body-sm text-body-sm text-on-surface-variant text-center mt-3">اسحب المؤشر أفقياً للمقارنة المباشرة بدقة عالية</span>
+</div>
+<!-- Clinical Case Dossier Breakdown -->
+<div class="lg:col-span-5 flex flex-col justify-between h-full text-right">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-md bg-secondary-fixed/60 text-on-secondary-fixed mb-4">
+<span class="material-symbols-outlined text-sm">clinical_notes</span>
+<span class="font-label-sm text-label-sm font-semibold">ملف دراسة الحالة الطبي</span>
+</div>
+<h3 class="font-headline-lg text-headline-lg text-on-surface font-bold mb-4">
+                إعادة تأهيل كامل للفك العلوي مع استعادة خط الابتسامة
+              </h3>
+<div class="space-y-4 mb-6">
+<div class="p-3.5 bg-surface-container-low rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary block mb-1">طبيعة الحالة</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">فقدان في الأضراس وتآكل نسيجي مع تصبغات عميقة غير قابلة للتبييض التقليدي.</p>
+</div>
+<div class="p-3.5 bg-surface-container-low rounded-xl">
+<span class="font-label-sm text-label-sm text-secondary block mb-1">الإجراء والعلاج المُنفذ</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">6 زراعات تيتانيوم سويسرية + 12 تاج زيركون ثلاثي الأبعاد مقطوع بتقنية CAD/CAM.</p>
+</div>
+<div class="p-3.5 bg-surface-container-low rounded-xl flex justify-between items-center">
+<div>
+<span class="font-label-sm text-label-sm text-secondary block">المدة الزمنية</span>
+<p class="font-body-md text-body-md text-on-surface font-medium">جلستان فقط (تحميل فوري)</p>
+</div>
+<span class="material-symbols-outlined text-secondary text-2xl">timer</span>
+</div>
+</div>
+</div>
+<a class="inline-flex items-center justify-center w-full py-3.5 px-6 rounded-xl bg-primary text-on-primary font-label-md text-label-md hover:bg-surface-tint transition-all" href="#booking-section">
+<span>احصل على خطة علاجية مماثلة</span>
+<span class="material-symbols-outlined mr-2 text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 3: HIGH-TICKET SERVICES GRID -->
+<section class="w-full bg-surface py-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="text-right max-w-2xl mb-14">
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase tracking-wider block mb-2">رعاية متخصصة فائقة الدقة</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold">خدماتنا التخصصية الرائدة</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mt-2">
+          نستثمر في أحدث الأنظمة الجراحية والتعويضية لنضمن لك أعلى درجات الراحة والنتائج طويلة الأمد.
+        </p>
+</div>
+<!-- 3 Columns Services -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+<!-- Service Card 1: Dental Implants -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl">dentistry</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">زراعة الأسنان</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">01</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold block mb-4">Dental Implants</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              زراعة فورية موجهة رقمياً باستخدام أحدث الماسحات ثلاثية الأبعاد وغرسات التيتانيوم السويسرية المتوافقة حيوياً لثبات مدى الحياة دون ألم.
+            </p>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>زراعة بدون جراحة تقليدية</span>
+</li>
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>تحميل فوري في نفس اليوم</span>
+</li>
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>ضمان موثق مدى الحياة</span>
+</li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary group-hover:text-primary transition-colors pt-4" href="#booking-section">
+<span>تفاصيل الإجراء وحجز استشارة</span>
+<span class="material-symbols-outlined text-base">arrow_back</span>
+</a>
+</div>
+<!-- Service Card 2: Zirconia Crowns -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl">diamond</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">تركيبات الزيركون</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">02</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold block mb-4">Zirconia Crowns</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              تيجان وعدسات زيركون فائقة الشفافية والصلابة ومطابقة للون الأسنان الطبيعي بدقة ميكرونية عبر تقنية CAD/CAM الألمانية.
+            </p>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>مقاومة تامة للتصبغ والتآكل</span>
+</li>
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>حواف لثوية طبيعية 100%</span>
+</li>
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>تصميم رقمي متكامل للابتسامة</span>
+</li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary group-hover:text-primary transition-colors pt-4" href="#booking-section">
+<span>تفاصيل الإجراء وحجز استشارة</span>
+<span class="material-symbols-outlined text-base">arrow_back</span>
+</a>
+</div>
+<!-- Service Card 3: Orthodontics -->
+<div class="bg-surface-container-lowest rounded-2xl p-8 shadow-sm hover:shadow-xl transition-all duration-300 flex flex-col justify-between group">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-secondary-fixed flex items-center justify-center text-secondary mb-6 group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-3xl">align_horizontal_center</span>
+</div>
+<div class="flex items-center justify-between mb-2">
+<h3 class="font-headline-md text-headline-md text-on-surface font-bold">تقويم الأسنان</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-mono">03</span>
+</div>
+<span class="font-label-sm text-label-sm text-secondary font-semibold block mb-4">Orthodontics</span>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed mb-6">
+              حلول تقويمية متطورة تشمل التقويم الشفاف غير المرئي (Invisalign) والتقويم الخزفي لإعادة صف الأسنان وتناسق الفكين بكل أريحية.
+            </p>
+<ul class="space-y-3 mb-8">
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>قوالب شفافة غير مرئية وسهلة النزع</span>
+</li>
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>خطة علاجية رقمية مسبقة</span>
+</li>
+<li class="flex items-center gap-2.5 font-body-sm text-body-sm text-on-surface">
+<span class="material-symbols-outlined text-secondary text-base">check_circle</span>
+<span>متابعة دورية بأحدث الأجهزة</span>
+</li>
+</ul>
+</div>
+<a class="inline-flex items-center gap-2 font-label-md text-label-md text-secondary group-hover:text-primary transition-colors pt-4" href="#booking-section">
+<span>تفاصيل الإجراء وحجز استشارة</span>
+<span class="material-symbols-outlined text-base">arrow_back</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 4: INTERACTIVE BOOKING FLOW COMPONENT -->
+<section class="w-full bg-surface-container-low py-20" id="booking-section">
+<div class="max-w-4xl mx-auto px-6 lg:px-12">
+<!-- Outer Card with luxury elevation -->
+<div class="bg-surface-container-lowest rounded-2xl shadow-xl p-8 lg:p-12">
+<!-- Header -->
+<div class="text-center max-w-lg mx-auto mb-10">
+<div class="w-12 h-12 rounded-full bg-secondary-fixed text-secondary flex items-center justify-center mx-auto mb-3">
+<span class="material-symbols-outlined text-2xl">event_available</span>
+</div>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold mb-2">حجز استشارة تخصصية وفحص رقمي شامل</h2>
+<p class="font-body-md text-body-md text-on-surface-variant">حدد الإجراء والموعد المناسب وسيقوم فريق الاستقبال الطبي بتأكيد موعدك فوراً.</p>
+</div>
+<!-- Step Indicators -->
+<div class="grid grid-cols-3 gap-2 mb-10">
+<div class="flex flex-col items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center font-bold text-sm">1</div>
+<span class="font-label-sm text-label-sm text-on-surface font-semibold text-center">اختيار التخصص</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center font-bold text-sm">2</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium text-center">اليوم والتوقيت</span>
+</div>
+<div class="flex flex-col items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-surface-container-high text-on-surface flex items-center justify-center font-bold text-sm">3</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant font-medium text-center">البيانات والتأكيد</span>
+</div>
+</div>
+<form class="space-y-8" id="booking-form" onsubmit="event.preventDefault(); document.getElementById('booking-success').classList.remove('hidden');">
+<!-- Step 1: Select Service -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-2" for="service-select">
+<span class="material-symbols-outlined text-secondary text-lg">medical_services</span>
+<span>الخطوة 1: اختر نوع الخدمة المطلوبة</span>
+</label>
+<div class="relative">
+<select class="w-full bg-surface-container-low text-on-surface px-4 py-3.5 rounded-xl font-body-md text-body-md appearance-none focus:outline-none focus:bg-surface-container transition-all" id="service-select">
+<option value="implants">زراعة أسنان فورية (تيتانيوم سويسري ثلاثي الأبعاد)</option>
+<option value="zirconia">تركيبات زيركون وعدسات تجميلية فائقة الدقة</option>
+<option value="ortho">تقويم الأسنان الشفاف (Invisalign)</option>
+<option value="consultation">استشارة وفحص شامل مع أشعة مقطعية ثلاثية الأبعاد</option>
+</select>
+<div class="absolute left-4 top-1/2 -translate-y-1/2 pointer-events-none text-on-surface-variant">
+<span class="material-symbols-outlined">expand_more</span>
+</div>
+</div>
+</div>
+<!-- Step 2: Date Selector Cards -->
+<div class="flex flex-col gap-2">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-lg">calendar_today</span>
+<span>الخطوة 2: حدد اليوم المناسب هذا الأسبوع</span>
+</label>
+<div class="grid grid-cols-2 sm:grid-cols-4 gap-3">
+<label class="flex flex-col items-center justify-center p-4 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors text-center has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input checked="" class="sr-only" name="booking-day" type="radio" value="sat"/>
+<span class="font-label-sm text-label-sm">السبت</span>
+<span class="font-headline-sm text-headline-sm font-bold my-1">16 مارس</span>
+<span class="font-label-sm text-label-sm opacity-80">صباحي / مسائي</span>
+</label>
+<label class="flex flex-col items-center justify-center p-4 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors text-center has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="booking-day" type="radio" value="sun"/>
+<span class="font-label-sm text-label-sm">الأحد</span>
+<span class="font-headline-sm text-headline-sm font-bold my-1">17 مارس</span>
+<span class="font-label-sm text-label-sm opacity-80">صباحي / مسائي</span>
+</label>
+<label class="flex flex-col items-center justify-center p-4 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors text-center has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="booking-day" type="radio" value="mon"/>
+<span class="font-label-sm text-label-sm">الاثنين</span>
+<span class="font-headline-sm text-headline-sm font-bold my-1">18 مارس</span>
+<span class="font-label-sm text-label-sm opacity-80">مسائي فقط</span>
+</label>
+<label class="flex flex-col items-center justify-center p-4 rounded-xl bg-surface-container-low hover:bg-surface-container cursor-pointer transition-colors text-center has-[:checked]:bg-primary has-[:checked]:text-on-primary">
+<input class="sr-only" name="booking-day" type="radio" value="tue"/>
+<span class="font-label-sm text-label-sm">الثلاثاء</span>
+<span class="font-headline-sm text-headline-sm font-bold my-1">19 مارس</span>
+<span class="font-label-sm text-label-sm opacity-80">صباحي / مسائي</span>
+</label>
+</div>
+</div>
+<!-- Step 3: Contact Details -->
+<div class="flex flex-col gap-4">
+<label class="font-label-md text-label-md text-on-surface font-semibold flex items-center gap-2">
+<span class="material-symbols-outlined text-secondary text-lg">badge</span>
+<span>الخطوة 3: بيانات التواصل الشخصية</span>
+</label>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+<div>
+<input class="w-full bg-surface-container-low text-on-surface px-4 py-3.5 rounded-xl font-body-md text-body-md focus:outline-none focus:bg-surface-container transition-all" placeholder="الاسم الكامل" required="" type="text"/>
+</div>
+<div class="flex" dir="ltr">
+<span class="inline-flex items-center px-4 rounded-l-xl bg-surface-container text-on-surface-variant font-label-md text-label-md select-none">
+                  +966
+                </span>
+<input class="w-full bg-surface-container-low text-on-surface px-4 py-3.5 rounded-r-xl font-body-md text-body-md focus:outline-none focus:bg-surface-container transition-all text-left" dir="ltr" placeholder="5X XXX XXXX" required="" type="tel"/>
+</div>
+</div>
+</div>
+<!-- Submit Button & Notice -->
+<div class="pt-4 flex flex-col gap-3">
+<button class="w-full py-4 px-8 rounded-xl bg-primary text-on-primary font-headline-sm text-headline-sm font-semibold hover:bg-surface-tint shadow-md transition-all flex items-center justify-center gap-2" type="submit">
+<span>تأكيد الحجز الفوري</span>
+<span class="material-symbols-outlined">send</span>
+</button>
+<div class="flex items-center justify-center gap-2 text-on-surface-variant font-body-sm text-body-sm text-center">
+<span class="material-symbols-outlined text-secondary text-base">timer</span>
+<span>سنقوم بالتواصل معك لتأكيد الموعد وتجهيز ملفك الطبي خلال 15 دقيقة</span>
+</div>
+</div>
+</form>
+<!-- Dynamic Success Banner (Initially Hidden) -->
+<div class="hidden mt-6 p-4 rounded-xl bg-secondary-fixed text-on-secondary-fixed flex items-center gap-3" id="booking-success">
+<span class="material-symbols-outlined text-2xl text-secondary">check_circle</span>
+<div class="font-body-md text-body-md">
+<strong>تم استلام طلبك بنجاح!</strong> تم حفظ طلب الاستشارة، وسيقوم المنسق الطبي بالاتصال بك قريباً.
+          </div>
+</div>
+</div>
+</div>
+</section>
+<!-- SECTION 5: TRUST & DOCTOR CREDENTIALS -->
+<section class="w-full bg-surface py-20">
+<div class="max-w-7xl mx-auto px-6 lg:px-12">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+<!-- Left Visual / Bio Card -->
+<div class="lg:col-span-5 relative">
+<div class="relative bg-surface-container-lowest rounded-2xl p-6 shadow-xl">
+<div class="relative aspect-square rounded-xl overflow-hidden mb-6">
+<div class="w-full h-full bg-cover bg-center" data-alt="Portrait of prestigious senior dental surgeon Dr Amouri wearing elegant dark navy surgical scrubs smiling in modern pristine clinic office with medical diplomas in background." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuDjpYR93z_vpJxxtvPaiErktzAaoGWefg_0Budwtl6m4yIYlJzAtk6WkoGE3cNBRyukL43b_3seBADfRLqRUAsdHNOKZGX3X3jFfqRV9Q085qEPplRAYNKyrMlbUXyNVnpuvps8oBjoKEVBBVLZHqUbWredbQSy4y2OGFC5h_tKNmCvHWg9w1xkqCOZJsYd1Im3tym6cnMx5OZOTJoGlK0uVGqn5vSJm2lU-GhTWBvV8f2rQA4jvIe7')"></div>
+<div class="absolute bottom-4 right-4 bg-primary/90 text-on-primary px-4 py-2 rounded-lg font-label-md text-label-md backdrop-blur-md">
+                د. عموري • كبير الجراحين
+              </div>
+</div>
+<div class="space-y-3">
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-2xl">workspace_premium</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">زمالة الأكاديمية الأمريكية لجراحة وتجميل الأسنان (AACD)</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="material-symbols-outlined text-secondary text-2xl">school</span>
+<span class="font-body-md text-body-md text-on-surface-variant">دكتوراه في التعويضات السنية والزراعة المتقدمة - جنيف</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Right Content / Philosophy -->
+<div class="lg:col-span-7 text-right">
+<span class="font-label-md text-label-md text-secondary font-semibold uppercase tracking-wider block mb-2">الرؤية والنزاهة السريرية</span>
+<h2 class="font-headline-xl text-headline-xl text-on-surface font-bold mb-6">
+            معايير صارمة تجمع بين النبل الطبي والفن الهندسي
+          </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant leading-relaxed mb-8">
+            في عيادة د. عموري، نؤمن بأن طب الأسنان ليس مجرد إجراء علاجي، بل هو فن تشكيلي مبني على أسس بيولوجية معقدة. نوفر لمرضانا أقصى درجات الطمأنينة عبر بروتوكولات تعقيم سويسرية متقدمة من الدرجة الأولى (Class B Autoclave)، مع ضمان عدم استخدام أي مادة تعويضية إلا بعد فحص توافقها الحيوي مع الأنسجة الفموية.
+          </p>
+<!-- 3 Pillars Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+<div class="p-4 bg-surface-container-lowest rounded-xl shadow-sm">
+<div class="flex items-center gap-2 mb-1 text-on-surface">
+<span class="material-symbols-outlined text-secondary">sanitizer</span>
+<h4 class="font-headline-sm text-headline-sm font-bold">تعقيم فائق وفق كود EN13060</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">أجهزة تعقيم رقمية تُغلق ذاتياً وتُطهر الأدوات بنظام التبخير الفراغي لكل مريض على حدة.</p>
+</div>
+<div class="p-4 bg-surface-container-lowest rounded-xl shadow-sm">
+<div class="flex items-center gap-2 mb-1 text-on-surface">
+<span class="material-symbols-outlined text-secondary">biotech</span>
+<h4 class="font-headline-sm text-headline-sm font-bold">مواد معتمدة وموثوقة المصدر</h4>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">شهادات تتبع ومنشأ لكل قطعة زيركون وغرسة تيتانيوم مسجلة بملفك الطبي.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- INTERACTIVE CLIENT-SIDE BEHAVIOR -->
+<script>
+    // Comparison Slider Functionality
+    const slider = document.getElementById('comparison-slider');
+    const handle = document.getElementById('slider-handle');
+    const beforeLayer = document.getElementById('before-image-layer');
+
+    if (slider && handle && beforeLayer) {
+      slider.addEventListener('input', (e) => {
+        const value = e.target.value;
+        handle.style.left = `${value}%`;
+        beforeLayer.style.clipPath = `polygon(0 0, ${value}% 0, ${value}% 100%, 0 100%)`;
+      });
+    }
+
+    // Tab buttons toggle (micro-interaction)
+    const tabButtons = document.querySelectorAll('.tab-btn');
+    tabButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        tabButtons.forEach(b => {
+          b.classList.remove('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm', 'font-semibold');
+          b.classList.add('text-on-surface-variant');
+        });
+        btn.classList.add('bg-surface-container-lowest', 'text-on-surface', 'shadow-sm', 'font-semibold');
+        btn.classList.remove('text-on-surface-variant');
+      });
+    });
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest shadow-[0_-1px_8px_rgba(0,0,0,0.02)]"><div class="max-w-7xl mx-auto px-6 lg:px-12 py-16"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12"><div class="flex flex-col gap-4"><div class="flex items-center gap-3"><div class="w-10 h-10 rounded-full bg-secondary-fixed flex items-center justify-center text-secondary"><span class="material-symbols-outlined text-secondary">dentistry</span></div><div><span class="font-headline-sm text-headline-sm text-on-surface block font-bold">Dr. Amouri A Clinic</span><span class="font-label-sm text-label-sm text-secondary block">عيادة النخبة لجراحة وتجميل الأسنان</span></div></div><p class="font-body-sm text-body-sm text-on-surface-variant leading-relaxed">وجهتكم الأولى للعناية الفائقة والابتسامة المثالية بأحدث التجهيزات الطبية الرقمية وفق أعلى المعايير السويسرية الدقيقة.</p><div class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container text-on-surface-variant font-label-sm text-label-sm"><span class="material-symbols-outlined text-secondary text-[16px]">verified</span><span>ترخيص طبي معتمد رقم: 4892-MED</span></div></div><div class="flex flex-col gap-3"><h4 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">روابط سريعة</h4><nav class="flex flex-col gap-2.5"><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="home" href="#">الرئيسية</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="services" href="#">الخدمات التخصصية</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="before-after" href="#">معرض الحالات والنتائج</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="booking" href="#">طلب موعد كشف واستشارة</a><a class="font-body-sm text-body-sm text-on-surface-variant hover:text-secondary transition-colors" data-path="contact" href="#">الموقع والتواصل</a></nav></div><div class="flex flex-col gap-3"><h4 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">ساعات العمل</h4><div class="space-y-2 text-on-surface-variant font-body-sm text-body-sm"><div class="flex justify-between items-center"><span class="text-on-surface">السبت - الأربعاء:</span><span>9:00 ص - 9:00 م</span></div><div class="flex justify-between items-center"><span class="text-on-surface">الخميس:</span><span>9:00 ص - 6:00 م</span></div><div class="flex justify-between items-center"><span class="text-on-surface">الجمعة:</span><span class="text-secondary font-medium">حالات الطوارئ المسبقة</span></div></div><div class="mt-3 pt-3 flex items-center gap-2 text-on-surface-variant font-label-sm text-label-sm"><span class="material-symbols-outlined text-secondary text-[18px]">schedule</span><span>خدمة استقبال كبار الشخصيات متاحة</span></div></div><div class="flex flex-col gap-3"><h4 class="font-headline-sm text-headline-sm text-on-surface mb-2 font-bold">التواصل المباشر</h4><div class="space-y-3 font-body-sm text-body-sm text-on-surface-variant"><div class="flex items-start gap-2.5"><span class="material-symbols-outlined text-secondary mt-0.5">location_on</span><span>برج النخبة الطبي، الطابق 14، شارع الملك عبدالعزيز</span></div><div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary">call</span><span class="text-right" dir="ltr">+966 11 482 0000</span></div><div class="flex items-center gap-2.5"><span class="material-symbols-outlined text-secondary">mail</span><span>concierge@dramouri.com</span></div></div></div></div><div class="mt-16 pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-on-surface-variant font-label-sm text-label-sm"><p>© 2024 عيادة د. عموري لطب وجراحة الأسنان (Dr. Amouri A Clinic). جميع الحقوق محفوظة.</p><div class="flex items-center gap-6"><a class="hover:text-on-surface transition-colors" href="#">سياسة الخصوصية</a><a class="hover:text-on-surface transition-colors" href="#">الشروط والأحكام الطبية</a><a class="hover:text-on-surface transition-colors" href="#">ميثاق رعاية المرضى</a></div></div></div></footer></body></html>
